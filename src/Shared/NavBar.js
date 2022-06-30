@@ -19,9 +19,9 @@ const NavBar = () => {
   </div>
   <div class="navbar-end hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
-      <li><a>Item 1</a></li>
-     
-      <li><a>Item 3</a></li>
+    <li><NavLink to="task">Completed Task</NavLink></li>
+        <li><NavLink to="todo">Todo App</NavLink></li>
+        <li><NavLink to="calendar">Calendar</NavLink></li>
     </ul>
   </div>
 
