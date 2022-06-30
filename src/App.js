@@ -10,9 +10,9 @@ function App() {
     <div className="App">
        <NavBar/>
        <Routes>
-        <Route path="/" element={<CompletedTask/>}/>
-        <Route path="/task" element={<CompletedTask/>}/>
+        <Route path="/" element={<TodoApp/>}/>
         <Route path="/todo" element={<TodoApp/>}/>
+        <Route path="/task" element={<CompletedTask/>}/>
         <Route path="/calendar" element={<Calendar/>}/>
        </Routes>
     </div>
